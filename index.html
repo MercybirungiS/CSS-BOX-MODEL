@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <h1>CSS Box Model</h1>
+     <p>CSS box model is a container which contains multiple properties including borders, margin, padding and the content itself. <br> 
+        The box model wraps around every html element <br>It is used to create the design and layout of web pages.  <br> 
+        It can be used as a toolkit for customizing the layout of different elements. <br> The web browser renders every element as a rectangular box according to the CSS box model.</p>
+      <h2>The main properties of a CSS box model</h2>
+      <ul>
+          <li> Content . <p>This area consists of content like text, image, or other media content. <br> It is bounded by the content edge and its dimensions are given by content box width and height.</p></li>
+          <li>Border <p>It is the area between the box’s padding and margin. <br> Its dimensions are given by the width and height of border.</p> </li>
+          <li>Padding <p>It includes the element’s padding. <br> This area is actually the space around the content area and within the border box. <br> Its dimensions are given by the width of the padding-box and the height of the padding-box. </p> </li>
+          <li>Margin <p>This area consists of space between border and margin. <br> The dimensions of Margin area are the margin-box width and the margin-box height. <br> It is useful to separate the element from its neighbors.</p></li>
+          <li>Width <p>The width property specifies the element's content area.</p></li>
+          <li>Height  <p> The height determines the height of the border area.</p></li> 
+        </ul>
+        
+            <div class="boxmodelcalculation">
+
+            Calculation of the box model: <br>
+            400px(width) <br>
+            +20px(left + right padding<br>
+            +2px(left + right border)<br>
+            +20px(left + right margin)<br>
+            <b>=442px</b>
+
+            </div>
+
+            <div class="myboxmodel">
+
+            <h3>
+             My box model 
+             </h3>
+             500px(width) <br>
+             +15px(left+right border) <br>
+             +50px(left+right padding) <br>
+             +25px(left+right margin) <br>
+             <b>=590px</b>
+
+            </div>
+        
+</body>
+</html>
